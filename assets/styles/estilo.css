@@ -11,6 +11,8 @@ html {
 
 body {
   font-family: Arial;
+  overflow-x: hidden;
+
 }
 
 header {

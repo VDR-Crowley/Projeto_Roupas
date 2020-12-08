@@ -8,8 +8,6 @@
         areaMenu.classList.remove('newmenu')   
         menu.style.marginLeft = '90px'
         ul.style.width = '0%'
-        ul.style.animationName = 'fechar'
-
     } else {
       areaMenu.classList.add('newmenu')
       menu.style.marginLeft = '-90px'
