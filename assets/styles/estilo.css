@@ -201,3 +201,60 @@ footer li a:hover {
   color: #CCC;
 }
 
+
+
+.menu-hamburger {
+  display: none;
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
+  .menu-hamburger  i{
+    margin-left: -15px;
+    cursor: pointer;
+  }
+
+  .banner-conteudo h1 {
+    font-size: 35px; 
+  }
+}
+
+@media (max-width: 440px) {
+
+  header .container {
+    max-width: 400px;
+  }
+
+  nav {
+    width: 0;
+
+  }
+
+  .menu-hamburger {
+    font-size: 30px;
+    color: #FFF;
+    display: block;
+    margin-left: 180px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  #banner .container {
+    padding-top: 60px;
+  }
+
+  .banner-image {
+    display: none
+  }
+
+  .produtos-images {
+    width: 60%;
+    flex-direction: column;
+    margin: auto
+  }
+
+  .produtos-images img {
+    margin-top: 20px;
+  }
+
+  
+}
