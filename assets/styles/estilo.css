@@ -135,3 +135,26 @@ header nav ul li.active {
 .banner-image img {
   height: 100%;
 }
+
+
+#produtos {
+
+}
+
+#produtos .container {
+  max-width: 1140px;
+  margin: 50px auto;
+}
+
+#produtos h1 {
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-size: 20px;
+}
+
+.produtos-images {
+  display: flex;
+  justify-content: space-between;
+}
+
